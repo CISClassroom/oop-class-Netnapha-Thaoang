@@ -1,6 +1,6 @@
 # รายงานผลการทดลอง
 
-<ชื่อ-นามสกุล> <รหัสนักศึกษา>
+<นางสาวเนตรนภา ทะอ่าง> <623410069-8>
 
 ## Student Class
 
@@ -11,7 +11,12 @@
 - สาขา
 
 ```java
-//add your code here
+public class Student {
+    // ประกาศตัวแปรขง class
+    public  String name;
+    public  String id;
+    public  String major;
+}
 ```
 
 ## Student Object
@@ -19,13 +24,27 @@
 สร้างวัตถุจากคลาสนักศึกษา และใส่ข้อมูลขอตนเองลงไป
 
 ```java
-//add your code here
+public static void main(String[] args) {
+	// create Student object
+        Student cream = new Student();
+        Student not   = new Student();
+
+        //input data to object
+        cream.name = "cream";
+        cream.id = "001";
+        cream.major = "CIS";
 ```
 
 แสดงข้อมูลวัตถุนักศึกษา ออกทาง console
 
 ```java
-//add your code here
+ public static void find_CIS_Student(Student[] students){
+        for(int i = 0; i < students.length; i++){
+            if(students[i].major == "CIS"){
+                System.out.print(i+1 + " " + students[i].name);
+            }
+        }
+    }
 ```
 
 ## Data collection
@@ -33,7 +52,7 @@
 สร้าง Data collection สำหรับเก็บข้อมูลนักศึกษา และแสดงการเก็บข้อมูล
 
 ```java
-//add your code here
+Student[] oopStudents = {cream , not};
 ```
 
 ## Student Selection
@@ -41,5 +60,11 @@
 ให้สร้างเมธอทสำหรับแสดงข้อมูลเฉพาะนักศึกษาชาย หรือหญิง จากข้อมูลนักศึกษาที่ได้สร้างขึ้น
 
 ```java
-//add your code here
+public static void find_CIS_Student(Student[] students){
+        for(int i = 0; i < students.length; i++){
+            if(students[i].major == "CIS"){
+                System.out.print(i+1 + " " + students[i].name);
+            }
+        }
+    }
 ```
