@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7c2cee20-6d7e-4651-ac0f-d12d4219726c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report.md" beforeDir="false" afterPath="$PROJECT_DIR$/Report.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +26,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../oop-classandobject-Netnapha-Thaoang" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -72,10 +71,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="121" key="FileChooserDialogImpl" timestamp="1578038115804">
+    <state x="462" y="121" key="FileChooserDialogImpl" timestamp="1583498784380">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="462" y="121" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1578038115804" />
+    <state x="462" y="121" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1583498784380" />
     <state width="1286" height="163" key="GridCell.Tab.0.bottom" timestamp="1576834941038">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
